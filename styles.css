@@ -6,8 +6,16 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.header, .info, .quote, .bottom {
+.header, .info, .quote {
     flex: 1;
+    padding: 0 10rem;
+}
+
+.bottom {
+    flex: 1;
+}
+
+.cta, .footer {
     padding: 0 10rem;
 }
 
@@ -119,6 +127,7 @@ a {
     margin-top: 16px;
 }
 
+/* quote */ 
 .quote {
     align-items: center;
     background-color: #E5E7EB;
@@ -144,4 +153,16 @@ a {
 
 .bottom {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.cta {
+    background-color: white;
+    flex: 3;
+}
+
+.footer {
+    background-color: #1F2937;
+    flex: 1;
 }
