@@ -159,8 +159,33 @@ a {
 
 .cta {
     background-color: white;
+    display: flex;
     flex: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 }
+
+.cta-banner {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+}
+
+.cta-text {
+    color: #F9FAF8;
+}
+
+.cta-text-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-banner .signup {
+    border: 2px solid #F9FAF8;
+}
+
 
 .footer {
     background-color: #1F2937;
