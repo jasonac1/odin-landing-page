@@ -157,6 +157,7 @@ a {
     flex-direction: column;
 }
 
+/* CTA */
 .cta {
     background-color: white;
     display: flex;
@@ -186,8 +187,13 @@ a {
     border: 2px solid #F9FAF8;
 }
 
-
+/* footer */
 .footer {
+    align-items: center;
     background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
     flex: 1;
+    justify-content: center;
 }
+
