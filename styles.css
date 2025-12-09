@@ -1,9 +1,8 @@
 body {
     display: flex;
     flex-direction: column;    
-    height: 100vh;
+    height: 150vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
 }
 
@@ -83,8 +82,40 @@ a {
     text-align: center;
 }
 
+/* info */
 .info {
     background-color: white;
+}
+
+.header-info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 32px 0;
+    text-align: center;
+}
+
+.info-cards {
+    display: flex;
+    gap: 96px;
+    justify-content: center;
+}
+
+.info-card {
+    text-align: center;
+    width: 128px;
+}
+
+.info-img {
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+    height: 128px;
+    width: 128px;
+}
+
+.subtext {
+    color: gray;
+    margin-top: 16px;
 }
 
 .quote {
