@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;    
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+}
+
+.header, .info, .quote, .bottom {
+    flex: 1;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.info {
+    background-color: white;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.bottom {
+    background-color: white;
+}
