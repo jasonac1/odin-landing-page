@@ -6,16 +6,11 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.header, .info, .quote {
-    flex: 1;
-    padding: 0 10rem;
-}
-
-.bottom {
+.header, .info, .quote, .bottom {
     flex: 1;
 }
 
-.cta, .footer {
+.header, .info, .quote, .cta, .footer {
     padding: 0 10rem;
 }
 
