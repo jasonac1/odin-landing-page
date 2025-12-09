@@ -11,7 +11,7 @@ body {
 }
 
 .header, .info, .quote, .cta, .footer {
-    padding: 0 10rem;
+    padding: 0 20rem;
 }
 
 /* header */
