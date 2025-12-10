@@ -116,6 +116,7 @@ a {
     display: flex;
     gap: 96px;
     justify-content: center;
+    margin-bottom: 32px;
 }
 
 .info-card {
@@ -213,4 +214,3 @@ a {
     flex: 1;
     justify-content: center;
 }
-
